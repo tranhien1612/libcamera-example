@@ -2,6 +2,9 @@
 
 ## Install libs
 ```
+     sudo apt install build-essential cmake git libcamera-dev libopencv-dev
+```
+```
     git clone https://github.com/kbarni/LCCV.git
     cd LCCV
     mkdir build && cd build
