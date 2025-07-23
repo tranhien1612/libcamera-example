@@ -8,3 +8,8 @@
     cmake .. && make
     sudo make install
 ```
+
+## Build source code
+```
+    g++ main.cpp -o main `pkg-config --cflags --libs  libcamera  opencv4` -llccv
+```
